@@ -1,0 +1,18 @@
+title: Flow Manifesto
+description: A manifesto for work that enables flow, autonomy, and joy
+theme: minima
+url: https://darinc.github.io/flow-manifesto
+
+# Navigation
+header_pages:
+  - index.md
+  - anti-patterns.md
+
+# GitHub repository info
+github_username: darinc
+repository: flow-manifesto
+
+# Enable plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
