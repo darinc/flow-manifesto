@@ -1,6 +1,6 @@
 title: Flow Manifesto
 description: A manifesto for work that enables flow, autonomy, and joy
-theme: minima
+theme: pages-themes/hacker@v0.2.0
 url: https://darinc.github.io/flow-manifesto
 
 # Navigation
@@ -16,3 +16,4 @@ repository: flow-manifesto
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-remote-theme
