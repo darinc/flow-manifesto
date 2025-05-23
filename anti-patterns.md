@@ -9,6 +9,7 @@ title: Work Anti-Patterns
 
 ---
 
+<div class="anti-pattern-container">
 {% for pattern in site.data.anti-patterns %}
 <div class="anti-pattern-card">
     <h2><span class="emoji">{{ pattern.emoji }}</span> {{ pattern.title }}</h2>
@@ -17,6 +18,7 @@ title: Work Anti-Patterns
     <p><strong>The better way:</strong> {{ pattern.the_better_way }}</p>
 </div>
 {% endfor %}
+</div>
 
 ---
 

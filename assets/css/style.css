@@ -1,17 +1,27 @@
+/* Container for the cards */
+.anti-pattern-container {
+    display: grid;
+    /* Create columns that are at least 300px wide and take up equal space */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px; /* Space between cards */
+    margin-top: 20px; /* Add some space above the grid */
+}
+
 /* Basic card styling */
 .anti-pattern-card {
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
-    margin-bottom: 20px;
     background-color: #f9f9f9;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    /* margin-bottom is replaced by gap in the grid container */
 }
 
 .anti-pattern-card h2 {
     margin-top: 0;
     display: flex;
     align-items: center;
+    font-size: 1.2em; /* Adjust heading size slightly for cards */
 }
 
 .anti-pattern-card .emoji {
@@ -21,9 +31,21 @@
 
 .anti-pattern-card p {
     margin-bottom: 10px;
+    line-height: 1.5; /* Improve readability */
+}
+
+.anti-pattern-card p:last-child {
+    margin-bottom: 0; /* Remove margin from the last paragraph */
 }
 
 .anti-pattern-card strong {
     display: block;
     margin-bottom: 5px;
+}
+
+/* Optional: Add some basic styling to the main container if needed */
+.container {
+    max-width: 1200px; /* Limit the overall width of the content */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Add some padding on the sides */
 }
