@@ -1,6 +1,6 @@
 title: Flow Manifesto
 description: A manifesto for work that enables flow, autonomy, and joy
-theme: pages-themes/hacker@v0.2.0
+remote_theme: pages-themes/hacker@v0.2.0
 url: https://darinc.github.io/flow-manifesto
 
 # Navigation
